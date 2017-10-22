@@ -8,13 +8,15 @@ import store from './store'
 
 import App from './components/App.vue'
 import Dashboard from './components/Dashboard.vue'
-import Signin from './components/SignIn.vue'
+import Signin from './components/Signin.vue'
+import Signup from './components/Signup.vue'
 
 const router = new VueRouter({
   mode: 'history',
   routes: [
     { path: '/dashboard', component: Dashboard },
-    { path: '/signin', component: Signin }
+    { path: '/signin', component: Signin },
+    { path: '/signup', component: Signup }
   ]
 })
 
